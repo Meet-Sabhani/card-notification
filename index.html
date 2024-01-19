@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .perent-notification {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100%;
+            background-color: #dadada;
+        }
+
+        .notification {
+            background-color: #eee;
+            width: 50%;
+            padding: 20px;
+        }
+
+        .image-name {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .name-image {
+            display: flex;
+            align-items: center;
+            gap: 2%;
+        }
+
+        .name-image h1 {
+            white-space: nowrap;
+        }
+
+        .image-name img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .text-not {
+            padding: 20px 0;
+        }
+
+        .btns button {
+            padding: 10px;
+            border: none;
+            border-radius: 7px;
+            color: #fff;
+            transition: 0.4s;
+        }
+
+        .btns button:nth-child(1) {
+            background-color: green;
+        }
+
+        .btns button:nth-child(2) {
+            background-color: red;
+        }
+
+        .btns button:active {
+            scale: 0.9;
+        }
+
+        @media (max-width: 700px) {
+            .notification {
+                height: auto;
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="perent-notification">
+
+        <div class="notification">
+
+            <div class="image-name">
+                <div style="" class="name-image">
+                    <img src="https://images.unsplash.com/photo-1682687982298-c7514a167088?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                    <h1>Meet sabhani</h1>
+                </div>
+                <h1>x</h1>
+            </div>
+            <p class="text-not">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iure velit, perspiciatis
+                ipsa quis, beatae
+                reiciendis cupiditate mollitia magnam dignissimos deleniti rerum minus ut dolorum magni quae, vel eius
+                esse!</p>
+            <div class="btns">
+                <button>Replay</button>
+                <button>Resolve</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
